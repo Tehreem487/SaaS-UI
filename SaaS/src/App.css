@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+#center {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #94a3b8;
+}
+
+.counter {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ticks {
+  height: 1px;
+  background: #1e293b;
+  margin: 30px 0;
+}
+
+#next-steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+}
+
+#spacer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
+.nav-auth {
+  display: flex;
+  gap: 10px;
+}
+
+/* Base button style */
+.btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Login button */
+.login {
+  background: transparent;
+  border: 1px solid #60a5fa;
+  color: #60a5fa;
+}
+
+.login:hover {
+  background: #60a5fa;
+  color: #0b1220;
+}
+
+/* Signup button */
+.signup {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: white;
+  border: none;
+}
+
+.signup:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
